@@ -1,0 +1,16 @@
+{
+    "extensionName": "littleBitsMulti",
+    "extensionPort": 8098,
+    "blockSpecs": [
+        [" ", "write %m.outAPins %n", "write", "out", "100"],
+        ["r", "read %m.inAPins", "read", "a1"],
+        ["r", "regulator", "regulator", "100"]
+        
+    ],
+    "menus": {
+        "outAPins": ["out"],
+        "inAPins": ["a1", "a2"],
+        "dOutp": ["true", "false"]
+    },
+    "type": "serial"
+}
