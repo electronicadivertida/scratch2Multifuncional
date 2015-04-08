@@ -88,6 +88,8 @@ public class JLeerScratch {
     public  static final String mcscomputeFunction="computeFunction:of:";
     private  static final String mcssqrt="sqrt";
     public  static final String mcssqrtred="sq";
+    private  static final String mcsabs="abs";
+    public  static final String mcsabsred="abs";
     
     
     
@@ -136,6 +138,7 @@ public class JLeerScratch {
     mcsrounded,
     mcscomputeFunction,
     mcssqrt,
+    mcsabs,
     
     
     //elimininar, validos
@@ -182,6 +185,7 @@ public class JLeerScratch {
     mcsroundedred,
     mcscomputeFunction,
     mcssqrtred,
+    mcsabsred,
     
     
     //elimininar, validos
