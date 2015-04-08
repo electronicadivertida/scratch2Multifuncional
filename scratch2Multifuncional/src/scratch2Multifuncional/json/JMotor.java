@@ -202,10 +202,6 @@ public class JMotor implements Runnable {
                     lbContinuar = false;
                     loResult=Math.sqrt(getDouble((instruccion(loInsTr.get(1)))));
                 }
-                if(lbContinuar && lsIns.equals(JLeerScratch.mcsabsred)){
-                    lbContinuar = false;
-                    loResult=Math.abs(getDouble((instruccion(loInsTr.get(1)))));
-                }
                 if(lbContinuar && lsIns.equals(JLeerScratch.mcsdigitalReadred)){
                     lbContinuar = false;
                     if(loInsTr.getString(1).equalsIgnoreCase(JLeerScratch.mcsA1)){
